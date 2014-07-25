@@ -13,8 +13,6 @@ if (selection.count() == 1) {
 		var page = doc.pages().objectAtIndex(i),
 	    	layers = page.children();
 
-		[page deselectAllLayers]
-
 		var loop = [layers objectEnumerator]
 
 		while (layer = [loop nextObject]) {
